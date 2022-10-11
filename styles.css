@@ -6,7 +6,7 @@ padding: 0;
 box-sizing:border-box;
 }
 body{
-    font-family:'Gemunu Libre', sans-serif;;
+    font-family:'Gemunu Libre', sans-serif;
 }
 
 nav {
@@ -153,6 +153,79 @@ img{
     100%{
         opacity: 1;
         transform: translateY(0px);
+
+    }
+}
+
+/*media Query */
+
+@media screen and (max-width:1000px) {
+
+    img{
+        height: 400px;
+    }
+    
+}
+
+@media screen and (max-width:800px) {
+
+    img{
+        height: 370px;
+    }
+    .textos h1{
+        font-size: 70px;
+    }
+
+    .textos h2{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:700px) {
+
+    img{
+        height: 250px;
+    }
+    .textos h1{
+        font-size: 40px;
+    }
+
+    .textos h2{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:400px) {
+
+    .container{
+        width: 100%;
+        flex-wrap: wrap-reverse;
+        text-align: center;
+    }
+    .textos {
+        width: 100%;
+        text-align: center;
+    }
+
+    .textos h1{
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width:340px) {
+
+    .img{
+        height: 160px;
+    }
+    .textos h1 {
+    }   font-size: 35px;
+
+    .textos h2{
+        font-size: 15px;
+    }
+
+    .textos a{
+        width: 120px;
 
     }
 }
