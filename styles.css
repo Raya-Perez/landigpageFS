@@ -115,10 +115,12 @@ img{
 }
 
 .uno{
+    clip-path: ellipse(0% 0% at 0% 0%);
 
 }
 
 .dos{
+    clip-path: ellipse(98% 98% at 1% 1%);
 
 }
 @keyframes moverIzquierda{
@@ -195,13 +197,14 @@ img{
     }
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:450px) {
 
     .container{
         width: 100%;
         flex-wrap: wrap-reverse;
         text-align: center;
     }
+
     .textos {
         width: 100%;
         text-align: center;
@@ -210,6 +213,7 @@ img{
     .textos h1{
         font-size: 60px;
     }
+    
 }
 
 @media screen and (max-width:340px) {
